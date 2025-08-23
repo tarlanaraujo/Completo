@@ -88,6 +88,15 @@ const observeElements = () => {
         observer.observe(card);
     });
 
+    // Observar cards de portfólio
+    const portfolioCards = document.querySelectorAll('.portfolio-card');
+    portfolioCards.forEach((card, index) => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = `opacity 0.6s ease ${index * 0.2}s, transform 0.6s ease ${index * 0.2}s`;
+        observer.observe(card);
+    });
+
     // Observar estatísticas
     const stats = document.querySelectorAll('.stat');
     stats.forEach((stat, index) => {
