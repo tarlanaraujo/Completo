@@ -418,7 +418,7 @@ body {
 }
 
 .security-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
 
@@ -439,7 +439,7 @@ body {
 }
 
 .security-card h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #2c3e50;
     margin-bottom: 15px;
     font-weight: 600;
@@ -450,7 +450,7 @@ body {
 }
 
 .security-card li {
-    padding: 6px 0;
+    padding: 8px 0;
     color: #555;
     font-size: 0.9rem;
     position: relative;
