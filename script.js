@@ -154,6 +154,8 @@ const getServiceName = (value) => {
     const services = {
         'computadores': 'Manutenção de Computadores',
         'redes': 'Redes e Segurança',
+        'cameras': 'Câmeras de Segurança e Monitoramento',
+        'impressoras': 'Impressoras e Manutenção',
         'desenvolvimento': 'Desenvolvimento',
         'suporte': 'Suporte Técnico',
         'outros': 'Outros Serviços'
