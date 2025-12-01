@@ -395,6 +395,76 @@ body {
     background: white;
 }
 
+/* Security Monitoring Section */
+.security-monitoring {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.security-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.security-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid #ecf0f1;
+}
+
+.security-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.security-icon {
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.security-icon i {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.security-card h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.security-card ul {
+    list-style: none;
+}
+
+.security-card li {
+    padding: 8px 0;
+    color: #555;
+    font-size: 0.9rem;
+    position: relative;
+    padding-left: 20px;
+}
+
+.security-card li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #1e3c72;
+    font-weight: bold;
+}
+
 /* Portfolio Section */
 .portfolio {
     padding: 100px 0;
